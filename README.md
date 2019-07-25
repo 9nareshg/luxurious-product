@@ -6,6 +6,7 @@ this project is going to be just looking like big e-commerce dynamic website (eg
 e-commerce site).
 
 this projects purpose is only to do a practice of how to build full dynamic e-commerce site.
+the people who wanna learn dynamic e-commerce site code can follow me here.
 
 project structure idea here-
   selling products of famous luxury items.
