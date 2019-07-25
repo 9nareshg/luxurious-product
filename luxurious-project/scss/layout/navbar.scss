@@ -6,11 +6,22 @@
 
 	li{
 		display:inline-block;
-		padding:13px 25px;
+		padding:13px 15px;
 		float:left;
 		font:bold 12px Quicksand-Regular;
-	}
-	.active{
-		background-color:$bg-color5;
-	}
+
+		span{
+			height:14px;
+			width:20px;
+			float:right;
+			background-image: url("../img/svg/dropdown-icon.svg");
+			background-size: 15px 12px;
+			background-position:bottom right;
+			background-repeat:no-repeat;
+
+			path{
+				background-color: #000;
+			}			
+		}
+	}	
 }
