@@ -1,0 +1,16 @@
+@import 'abstracts/variable';
+
+.nav-bar{	
+	width:100%;
+	float:left;	
+
+	li{
+		display:inline-block;
+		padding:13px 25px;
+		float:left;
+		font:bold 12px Quicksand-Regular;
+	}
+	.active{
+		background-color:$bg-color5;
+	}
+}

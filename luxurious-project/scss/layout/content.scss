@@ -1,0 +1,8 @@
+@import 'abstracts/variable';
+
+.content{	
+	width:100%;
+	float:left;
+	box-shadow: 0px -2px 6px -7px $bg-color2;
+	height:1000px;
+}
