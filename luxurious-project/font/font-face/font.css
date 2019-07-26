@@ -1,4 +1,12 @@
-@font-face{
-	font-family:Quicksand-Regular;
-	src: url(../Quicksand-Regular.otf);
+@font-face {
+    font-family: 'Nunito';
+    src: url('../Nunito-Regular.eot');
+    src: url('../Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Nunito-Regular.woff2') format('woff2'),
+        url('../Nunito-Regular.woff') format('woff'),
+        url('../Nunito-Regular.ttf') format('truetype'),
+        url('../Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+

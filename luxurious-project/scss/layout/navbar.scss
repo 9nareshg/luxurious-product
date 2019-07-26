@@ -7,8 +7,9 @@
 	li{
 		display:inline-block;
 		padding:13px 25px;
-		float:left;
-		font:bold 12px Quicksand-Regular;
+		float:left;		
+		font-size:12px;
+		font-family: 'Nunito', sans-serif;
 		position:relative;
 
 		span{
@@ -17,7 +18,7 @@
 			position:absolute;
 			right:12px;
 			top:15px;
-			border:solid $bg-color6;
+			border:solid $bg-color2;
 			border-width:0 0 1.5px 1.5px;
 			transform: rotate(-45deg);
 			transition:all .3s;
