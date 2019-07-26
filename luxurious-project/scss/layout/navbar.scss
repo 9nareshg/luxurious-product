@@ -28,5 +28,12 @@
 			transform: rotate(135deg);
 			top:19px;			
 		}
+
+		&:hover > div{
+			height:300px;
+			width:500px;
+			position:absolute;
+			background-color:$bg-color1;
+		}
 	}	
 }
