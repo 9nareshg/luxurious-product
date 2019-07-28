@@ -20,6 +20,8 @@
 			top:15px;
 			border:solid $bg-color2;
 			border-width:0 0 1.5px 1.5px;
+			-ms-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 			transition:all .3s;
 		}
