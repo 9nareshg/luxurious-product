@@ -5,7 +5,7 @@
 	<title>luxurious products</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/header-nav-footer.css">
-	<link rel="stylesheet" type="text/css" href="css/pages/home.css">
+	<link rel="stylesheet" type="text/css" href="css/pages/products.css">
 </head>
 
 <body>
@@ -62,7 +62,34 @@
 	</div>
 	<!-- nav-bar ends -->
 	<div class="content">
-		<div class="page-base"></div>
+		<div class="page-base">
+			<div class="filter">
+				<div class="f-heading">Filters <a href="#">clear all</a></div>
+				<div class="f-category"></div>
+				<div class="f-select">
+					<div class="brand">Brand<span class="click">+</span></div>
+					<div class="brand-open">
+						<p>The Boring company</p>
+						<p>Carta</p>
+						<p>Juicero</p>
+						<p>Oath</p>
+						<p>Amerock</p>
+						<p>Acorn</p>
+						<p>Atlas Hardware</p>
+					</div>
+					<!-- brand filter -->
+
+					<div class="price">Price<span class="click">+</span></div>
+					<div class="price-open"></div>
+					<!-- price filter -->
+
+					<div class="sort-by">Sort by<span class="click">+</span></div>
+					<div class="sort-by-open"></div>
+					<!-- sort by filter -->
+				</div>
+			</div>
+			<div class="products"></div>
+		</div>
 	</div>
 	<!-- content ends -->
 	<div class="footer">
@@ -70,5 +97,11 @@
 	</div>
 	<!-- footer ends -->
 </body>
+	<!-- cdn script starts here-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<!-- cdn script ends here-->
 
+	<!-- common.js file link starts here-->
+	<script src="js/common.js"></script>
+	<!-- common.js file link ends here-->
 </html>

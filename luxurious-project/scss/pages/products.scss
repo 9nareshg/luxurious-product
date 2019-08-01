@@ -1,0 +1,53 @@
+@import 'layout/content';
+
+.filter{
+	height:500px;
+	width:17%;
+	float:left;
+
+	.f-heading{
+		font: 14px 'Nunito', sans-serif;
+	    padding: 20px 0;
+	    color: #414650;
+
+		a{
+			float:right;
+			color:#ff4d29;
+		}
+	}
+	
+	.brand{
+		font: 14px 'Nunito', sans-serif;
+	    padding: 5px 0;
+	    color: #000000;
+	    border: solid #e2e2e2;
+	    border-width: 0 0 1px 0;
+	    cursor:pointer;
+
+	    span{
+	    	float:right;
+	    }
+	}
+	.brand-open{
+		font: 14px 'Nunito', sans-serif;
+	    padding: 5px 0 5px 15px;
+	    color: #000000;
+	}
+	.price{
+		@extend .brand;
+	}
+	.price-open{
+		@extend .brand-open;
+	}
+	.sort-by{
+		@extend .brand;
+	}
+	.sort-by-open{
+		@extend .brand-open;
+	}
+}
+.products{
+	height:500px;
+	width:83%;
+	float:left;
+}
