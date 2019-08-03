@@ -30,11 +30,12 @@
 		}
 
 		.s-input{
-			height:50%;
-			width:100%;
-			float:left;
-			border-bottom:2px solid $bg-color4;			
-			position:relative;
+			height: 50%;
+		    width: 100%;
+		    float: left;
+		    border-bottom: 1px solid #d0c6c6;
+		    position: relative;
+		    box-sizing: border-box;
 		}
 		input[type="text"]{
 			height: 33px;
@@ -46,6 +47,7 @@
 			padding-left:1%;
 			font-size:12px;
 			font-family: 'Nunito', sans-serif;
+			background-color: transparent;
 		}
 		button{
 			height: 33px;

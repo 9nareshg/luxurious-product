@@ -1,55 +1,72 @@
 @import 'abstracts/variable';
 
-.nav-bar{	
+.nav-bar{
 	width:100%;
 	float:left;
-	position:relative;
 
-	li{
-		display:inline-block;
-		padding: 12px 38px 12px 10px;
-		float:left;		
-		font-size:12px;
-		font-family: 'Nunito', sans-serif;
+	ul{
 		position:relative;
+		float:left;
 
-		&:hover{
-			background-color:$bg-color6;
-		}
+		li{
+			display:inline-block;
+			padding:12px 14px;
+			float:left;		
+			font-size:12px;
+			font-family: 'Nunito', sans-serif;
+			position:relative;
 
-		span{
-			height:5px;
-			width:5px;			
-			position:absolute;
-			right:20px;
-			top:14px;
-			border:solid $bg-color2;
-			border-width:0 0 1.5px 1.5px;
-			-ms-transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			transition:all .3s;
-		}
-		&:hover > span{
-			transform: rotate(135deg);
-			top:19px;			
-		}
+			&:nth-child(1){
+				padding-right:35px;
+				position:static;
+			}
+			&:nth-child(1):hover{
+				background-color:$bg-color6;
+			}
+			&:nth-child(1):after{
+				position:static;
+			}
 
-		div{
-			/*display:none;*/
-		}
-		&:hover > div{
-			/*display:block;*/
-			height:300px;
-			width:500px;
-			position:absolute;
-			left:0;
-			bottom:-300px;
-			background-color:$bg-color6;
-		}
-		&:nth-child(5):hover > div,&:nth-child(6):hover > div,&:nth-child(7):hover > div{
-			right:0;
-			left:auto;
+			&:after{
+				content:'';
+				position:absolute;
+				left:0;
+				bottom:0;
+				height:2px;
+				width:0;
+				transition: width .5s;
+				background:#000;
+			}
+			&:hover:after{				
+				width:100%;				
+			}
+
+			span{
+				height:5px;
+				width:5px;			
+				position:absolute;
+				left:41px;
+				top:14px;
+				border:solid $bg-color2;
+				border-width:0 0 1.5px 1.5px;
+				-ms-transform: rotate(-45deg);
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				transition:all .3s;
+			}
+			&:hover > span{
+				transform: rotate(135deg);
+				top:19px;			
+			}
+
+			&:hover > div{
+				height:300px;
+				width:100%;
+				position:absolute;
+				left:0;
+				bottom:-300px;
+				background-color:$bg-color6;
+			}
 		}
 	}
 }

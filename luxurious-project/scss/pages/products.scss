@@ -33,16 +33,16 @@
 	    padding: 5px 0 5px 15px;
 	    color: #000000;
 	}
-	.price{
-		@extend .brand;
-	}
-	.price-open{
-		@extend .brand-open;
-	}
 	.sort-by{
 		@extend .brand;
 	}
 	.sort-by-open{
+		@extend .brand-open;
+	}
+	.releated{
+		@extend .brand;
+	}
+	.releated-open{
 		@extend .brand-open;
 	}
 }

@@ -18,24 +18,6 @@ $(document).ready(function(){
 	// for brand-------------------------
 
 
-	$('.price').click(function(){
-		
-		$('.price').toggleClass('click');
-
-		if($('.price').hasClass('click')){
-			$('.price .click').text('+');
-		}
-		else{
-			$('.price .click').text('-')
-		}
-	});
-
-	$('.price').click(function(){
-		$('.price-open').toggle();
-	});
-	// for price-------------------------
-
-
 	$('.sort-by').click(function(){
 		
 		$('.sort-by').toggleClass('click');
@@ -52,5 +34,23 @@ $(document).ready(function(){
 		$('.sort-by-open').toggle();
 	});
 	// sort by---------------------------
+
+
+	$('.releated').click(function(){
+		
+		$('.releated').toggleClass('click');
+
+		if($('.releated').hasClass('click')){
+			$('.releated .click').text('+');
+		}
+		else{
+			$('.releated .click').text('-')
+		}
+	});
+
+	$('.releated').click(function(){
+		$('.releated-open').toggle();
+	});
+	// releated---------------------------
 });
 // filters click change icon ends here
