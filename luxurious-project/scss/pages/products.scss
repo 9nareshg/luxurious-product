@@ -32,6 +32,11 @@
 		font: 14px 'Nunito', sans-serif;
 	    padding: 5px 0 5px 15px;
 	    color: #000000;
+	    p{
+			&:hover{
+				background-color:#d6e7f1;
+			}
+		}
 	}
 	.sort-by{
 		@extend .brand;
