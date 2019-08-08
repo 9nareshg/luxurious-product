@@ -1,4 +1,5 @@
 @import 'abstracts/variable';
+@import 'abstracts/mixin';
 
 .nav-bar{
 	width:100%;
@@ -12,8 +13,7 @@
 			display:inline-block;
 			padding:12px 14px;
 			float:left;		
-			font-size:12px;
-			font-family: 'Nunito', sans-serif;
+			@include fonts(normal, 12px,$nunito);
 			position:relative;
 
 			&:nth-child(1){

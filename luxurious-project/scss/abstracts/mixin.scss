@@ -1,0 +1,5 @@
+@import 'abstracts/variable';
+
+@mixin fonts($weight, $size, $family){
+	font:$weight $size $family, sans-serif;
+}

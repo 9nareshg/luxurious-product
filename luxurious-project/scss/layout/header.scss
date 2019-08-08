@@ -1,4 +1,5 @@
 @import 'abstracts/variable';
+@import 'abstracts/mixin';
 
 .header{	
 	width: 100%;
@@ -45,8 +46,7 @@
 			outline:none;
 			margin:0;
 			padding-left:1%;
-			font-size:12px;
-			font-family: 'Nunito', sans-serif;
+			@include fonts(normal, 12px,$nunito);
 			background-color: transparent;
 		}
 		button{
@@ -72,8 +72,7 @@
 
 		.login, .signup, .seperate{
 			float:right;
-			font-size:14px;
-			font-family: 'Nunito', sans-serif;
+			@include fonts(normal, 14px,$nunito);
 			margin-left:12px;
 			position:relative;
 			top: 50%;
