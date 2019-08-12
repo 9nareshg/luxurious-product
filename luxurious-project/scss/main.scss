@@ -1,11 +1,17 @@
 @import 'base/reset';
 @import '../font/font-face/font.css';
 
-/*it's common style on whole projects*/
+
+
+/*it's common style on whole projects===================================*/
+
 .page-base{
-	width:1110px;	
+	width:1110px;
 	margin:auto;
 }
 a{
 	text-decoration:none;
+}
+label{
+	display:block;
 }
