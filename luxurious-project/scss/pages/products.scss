@@ -1,8 +1,20 @@
 @import 'layout/content';
 @import 'abstracts/mixin';
 
+.sticky-content{
+	display:flex;
+	display:-webkit-flex;
+	-ms-display:flex;
+	-moz-display:flex;
+	flex-wrap:wrap;
+	-webkit-flex-wrap:wrap;
+}
+.stick{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+}
 .filter{
-	height:500px;
 	width:17%;
 	float:left;
 
@@ -52,21 +64,37 @@
 		@extend .brand-open;
 	}
 }
-.products{
-	height:500px;
+.products-cont{
 	width:83%;
 	float:left;
+	padding-left:20px;
+	box-sizing: border-box;
 
-	.product{
-		width:calc((100% / 4) - 10px);;
+	.showing-result{
 		float:left;
-		margin:10px 0 0 10px;
+		padding: 21px 0 11px 10px;
+		width:100%;
+		@include fonts;
+	}
+	.products{
+		display:flex;
+		display:-webkit-flex;
+		-ms-display:flex;
+		-moz-display:flex;
+		flex-wrap:wrap;
+		-webkit-flex-wrap:wrap;
+		float:left;
 
-		.p-img{
-			float:left;
+		.product{
+			width:calc((100% / 4) - 10px);
+			margin:10px 0 0 9px;
 
-			img{
-				width:75%;
+			.p-img{
+				float:left;
+
+				img{
+					width:75%;
+				}
 			}
 		}
 	}

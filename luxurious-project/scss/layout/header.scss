@@ -17,7 +17,7 @@ header{
 			position:absolute;
 			top:50%;
 			transform:translateY(-50%);
-		}	
+		}
 	}
 	.search{
 		height:70px;
@@ -79,4 +79,39 @@ header{
     		transform: translateY(-50%);
 		}
 	}
+}
+
+.stick-header{
+	position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+
+    .logo{
+    	height:40px;
+    }
+    .search{
+    	@extend .logo;
+
+    	.s-heading{
+			display:none;
+		}
+		.s-input{
+			height:100%;
+
+			form{
+				height:100%;
+
+				input{
+					height:100%;
+				}
+				button{
+					@extend input;
+				}
+			}	
+		}
+    }
+    .register{
+    	@extend .logo;
+    }
 }

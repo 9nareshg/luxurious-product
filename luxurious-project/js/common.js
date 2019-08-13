@@ -54,3 +54,18 @@ $(document).ready(function(){
 	// releated---------------------------
 });
 // filters click change icon ends here
+
+$(function(){
+	$(window).scroll(function(){
+		var scroll = Math.floor($(window).scrollTop()); 
+		var header = $('header').height();
+		var nav = $('nav').height();
+
+		if(scroll > header+nav){
+			
+		}
+		else{
+			
+		}
+	});
+});

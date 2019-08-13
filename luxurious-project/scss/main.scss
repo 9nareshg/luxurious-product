@@ -3,11 +3,15 @@
 
 
 
-/*it's common style on whole projects===================================*/
+/*================================it's common style on whole projects================================*/
 
 .page-base{
-	width:1110px;
+	width:910px;
 	margin:auto;
+
+	@media screen and (min-width:1112px){
+		width:1110px;
+	}
 }
 a{
 	text-decoration:none;
