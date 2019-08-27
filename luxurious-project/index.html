@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<header class="stick-header">
+	<header>
 		<div class="page-base">
 			<div class="logo">
 				<!-- <img src="img/logo/Pepperfry_New_Logo.png" width="70%"> -->
@@ -54,43 +54,155 @@
 	<div class="content">
 		<div class="page-base">
 			<div class="sticky-content">
-				<div class="filter">
+				<div class="filter" id="sidebar">
 					<div class="stick">
 						<div class="f-heading">Filters<a href="#">clear all</a></div>
 						<div class="f-category"></div>
 						<div class="f-select">
 							<div class="releated">Releated Categories<span class="click">-</span></div>
 							<div class="releated-open">
-								<p><label><input type="checkbox">Door handle</label></p>
-								<p><label><input type="checkbox">Safty door handle</label></p>
-								<p><label><input type="checkbox">Safty door gril</label></p>
-								<p><label><input type="checkbox">Safty door lock</label></p>
-								<p><label><input type="checkbox">Men door lock</label></p>
-								<p><label><input type="checkbox">Door stoper</label></p>
-								<p><label><input type="checkbox">Door closer</label></p>
-								<p><label><input type="checkbox">door chain</label></p>
+								<ul>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door handle</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Safty door handle</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Safty door gril</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Safty door lock</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Men door lock</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door stoper</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door closer</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+								</ul>
 							</div>
 							<!-- releated categories filter -->
 
 							<div class="sort-by">Sort by<span class="click">-</span></div>
 							<div class="sort-by-open">
-								<p><label><input type="radio" name="select">None</label></p>
-								<p><label><input type="radio" name="select">Popularity</label></p>
-								<p><label><input type="radio" name="select">New Arrivals</label></p>
-								<p><label><input type="radio" name="select">price low to high</label></p>
-								<p><label><input type="radio" name="select">Price high to low</label></p>
+								<ul>
+									<li>
+										<label>
+											<input type="radio" name="select">
+											<span class="checkbox"></span>
+											<span>Popularity</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="radio" name="select">
+											<span class="checkbox"></span>
+											<span>New Arrivals</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="radio" name="select">
+											<span class="checkbox"></span>
+											<span>price low to high</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="radio" name="select">
+											<span class="checkbox"></span>
+											<span>Price high to low</span>
+										</label>
+									</li>
+								</ul>
 							</div>
 							<!-- sort by filter -->
 
 							<div class="brand">Brand<span class="click">-</span></div>
 							<div class="brand-open">
-								<p><label><input type="checkbox">The Boring company</label></p>
-								<p><label><input type="checkbox">Carta</label></p>
-								<p><label><input type="checkbox">Juicero</label></p>
-								<p><label><input type="checkbox">Oath</label></p>
-								<p><label><input type="checkbox">Amerock</label></p>
-								<p><label><input type="checkbox">Acorn</label></p>
-								<p><label><input type="checkbox">Atlas Hardware</label></p>
+								<ul>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>The Boring company</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Carta</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Oath</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Amerock</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Acorn</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Atlas Hardware</span>
+										</label>
+									</li>
+								</ul>
 							</div>
 							<!-- brand filter -->
 						</div>
@@ -395,10 +507,100 @@
 							<div class="p-title"></div>
 							<div class="p-desc"></div>
 						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
+
+						<div class="product">
+							<div class="p-img">
+								<img src="https://dummyimage.com/400x600/f5f4f2/000">
+							</div>
+							<div class="p-price"></div>
+							<div class="p-title"></div>
+							<div class="p-desc"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>	
 	</div>
 	<!-- content ends -->
 	<footer>
@@ -406,11 +608,9 @@
 	</footer>
 	<!-- footer ends -->
 </body>
-	<!-- cdn script starts here-->
+	<!-- cdn script-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<!-- cdn script ends here-->
-
-	<!-- common.js file link starts here-->
+	
+	<!-- common.js file link-->
 	<script src="js/common.js"></script>
-	<!-- common.js file link ends here-->
 </html>

@@ -10,9 +10,7 @@
 	-webkit-flex-wrap:wrap;
 }
 .stick{
-	position: -webkit-sticky;
-  	position: sticky;
-  	top: 0;
+  	position: relative;
 }
 .filter{
 	width:17%;
@@ -43,9 +41,24 @@
 	}
 	.brand-open{
 		@include fonts;
-	    padding: 5px 0 5px 15px;
+	    padding: 5px 0;
 	    color: #000000;
-	    p{
+	    li{
+	    	margin:5px 0;
+
+	    	input{
+	    		display:none;
+	    	}
+	    	.checkbox{
+	    		float: left;
+			    width: 17px;
+			    height: 17px;
+			    position: relative;
+			    border: solid 1px #d6d6d6;
+			    background-color: #ffffff;
+			    margin-right: 10px;
+	    	}
+
 			&:hover{
 				background-color:#d6e7f1;
 			}
