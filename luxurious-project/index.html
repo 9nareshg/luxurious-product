@@ -19,7 +19,7 @@
 				<div class="s-heading"></div>
 				<div class="s-input">
 					<form autocomplete="off">
-						<input type="text" name="search" placeholder="Search For Your Favourites Products">
+						<input type="text" name="search" placeholder="Search for your favourites products">
 						<button type="submit">
 							<img src="img/svg/search-icon.svg">
 						</button>
@@ -54,7 +54,7 @@
 	<div class="content">
 		<div class="page-base">
 			<div class="sticky-content">
-				<div class="filter" id="sidebar">
+				<div class="filter">
 					<div class="stick">
 						<div class="f-heading">Filters<a href="#">clear all</a></div>
 						<div class="f-category"></div>
@@ -118,6 +118,55 @@
 											<span>Door chain</span>
 										</label>
 									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door chain</span>
+										</label>
+									</li>
 								</ul>
 							</div>
 							<!-- releated categories filter -->
@@ -126,28 +175,28 @@
 							<div class="sort-by-open">
 								<ul>
 									<li>
-										<label>
+										<label onmouseup='var temp = this.children[0]; if (temp.checked) { setTimeout(function() { temp.checked = false; }, 0); }'>
 											<input type="radio" name="select">
 											<span class="checkbox"></span>
 											<span>Popularity</span>
 										</label>
 									</li>
 									<li>
-										<label>
+										<label onmouseup='var temp = this.children[0]; if (temp.checked) { setTimeout(function() { temp.checked = false; }, 0); }'>
 											<input type="radio" name="select">
 											<span class="checkbox"></span>
 											<span>New Arrivals</span>
 										</label>
 									</li>
 									<li>
-										<label>
+										<label onmouseup='var temp = this.children[0]; if (temp.checked) { setTimeout(function() { temp.checked = false; }, 0); }'>
 											<input type="radio" name="select">
 											<span class="checkbox"></span>
 											<span>price low to high</span>
 										</label>
 									</li>
 									<li>
-										<label>
+										<label onmouseup='var temp = this.children[0]; if (temp.checked) { setTimeout(function() { temp.checked = false; }, 0); }'>
 											<input type="radio" name="select">
 											<span class="checkbox"></span>
 											<span>Price high to low</span>
@@ -608,9 +657,12 @@
 	</footer>
 	<!-- footer ends -->
 </body>
-	<!-- cdn script-->
+	<!-- cdn script -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	
-	<!-- common.js file link-->
+
+	<!-- sticky sidebar plugin -->
+	<script type="text/javascript" src="js/stickysidebar.js"></script>
+
+	<!-- common.js file link -->
 	<script src="js/common.js"></script>
 </html>

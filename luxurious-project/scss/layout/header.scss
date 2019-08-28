@@ -48,6 +48,7 @@ header{
 			padding-left:1%;
 			@include fonts(normal, 12px, $nunito);
 			background-color: transparent;
+			letter-spacing: 0.3px;
 		}
 		button{
 			height: 33px;
@@ -98,17 +99,6 @@ header{
 		}
 		.s-input{
 			height:100%;
-
-			form{
-				height:100%;
-
-				input{
-					height:100%;
-				}
-				button{
-					@extend input;
-				}
-			}	
 		}
     }
     .register{

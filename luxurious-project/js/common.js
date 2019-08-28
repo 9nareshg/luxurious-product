@@ -71,3 +71,14 @@ $(function(){
 	});
 });
 // sticky header ends here
+
+// sticky sidebar starts here
+$(document).ready(function(){
+	$('.stick').stickySidebar({
+		containerSelector: '.sticky-content',
+		innerWrapperClass: 'sidebar__inner',
+		topSpacing: 35,
+		bottomSpacing: 15
+	});
+});
+// sticky sidebar ends here

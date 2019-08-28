@@ -15,6 +15,7 @@
 .filter{
 	width:17%;
 	float:left;
+	@include noselect;
 
 	.f-heading{
 		@include fonts;
@@ -48,13 +49,21 @@
 
 	    	input{
 	    		display:none;
+
+	    		&:checked ~ .checkbox::after{
+				    content: "\2713";
+				    position: absolute;
+				    left: 50%;
+				    top: 50%;
+				    transform: translate(-50%, -50%);
+	    		}
 	    	}
 	    	.checkbox{
 	    		float: left;
 			    width: 17px;
 			    height: 17px;
 			    position: relative;
-			    border: solid 1px #d6d6d6;
+			    border: solid 1px #2b2b2b;
 			    background-color: #ffffff;
 			    margin-right: 10px;
 	    	}
