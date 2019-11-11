@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,QAAQ,CACP,KAAK,CAAC,IAAI,CACV,KAAK,CAAC,IAAI,CACV,MAAM,CAAC,MAAM",
-"sources": ["../../scss/layout/content.scss"],
-"names": [],
-"file": "content.css"
-}
