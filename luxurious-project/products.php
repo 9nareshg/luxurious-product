@@ -9,52 +9,10 @@
 </head>
 
 <body>
-	<!-- header starts -->
-	<header>
-		<div class="page-base">
-			<div class="logo">
-				<!-- <img src="img/logo/Pepperfry_New_Logo.png" width="70%"> -->
-			</div>
-			<div class="search">
-				<div class="s-heading"></div>
-				<div class="s-input">
-					<form autocomplete="off">
-						<input type="text" name="search" placeholder="Search for your favourites products">
-						<button type="submit">
-							<img src="img/svg/search-icon.svg">
-						</button>
-					</form>	
-				</div>
-			</div>
-			<div class="register">
-				<span class="signup">Sign Up</span>
-				<span class="seperate">|</span>
-				<span class="login">Login</span>
-			</div>
-		</div>
-	</header>
-	<!-- header ends -->
+	<!-- header -->
+	<?php include('include_file/header.php') ?>
 
-	<!-- nav-bar starts -->
-	<nav>
-		<div class="page-base">
-			<ul>
-				<li>All<span></span>
-					<div></div>
-				</li>
-				<li>Locks & Fitting Accesories</li>
-				<li>Door Hardware</li>
-				<li>Bathroom Faucets & Taps</li>
-				<li>Furniture Handles & Knob</li>
-				<li>Lightning, Ladders & All</li>
-				<li>Tools & Accessories</li>
-				<li>Floor accessories</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- nav-bar ends -->
-
-	<!-- content starts -->
+	<!-- content -->
 	<div class="content">
 		<div class="page-base">
 			<div class="sticky-content">
@@ -655,13 +613,9 @@
 			</div>
 		</div>	
 	</div>
-	<!-- content ends -->
 	
-	<!-- footer starts -->
-	<footer>
-		<div class="page-base"></div>
-	</footer>
-	<!-- footer ends -->
+	<!-- footer -->
+	<?php include('include_file/footer.php') ?>
 
 	<!-- cdn script -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
