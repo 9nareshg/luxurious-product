@@ -1,1 +1,58 @@
 @import 'layout/content';
+
+.banner{
+	float:left;
+	width:100%;
+	visibility: hidden;
+	margin-top:10px;
+}
+
+.trending{
+	float:left;
+	width:100%;
+	margin-top:30px;
+	font: normal 20px Nunito,sans-serif;
+
+	h1{
+	    margin-bottom: 15px;
+	}
+	img{
+		padding:0 5px;
+	}
+	.slider{
+		visibility: hidden;
+	}
+}
+.you-may-also-like{
+	float:left;
+	width:100%;
+	margin-top:30px;
+	font: normal 20px Nunito,sans-serif;
+
+	h1{
+	    margin-bottom: 15px;
+	}
+	img{
+		padding:0 5px;
+	}
+	.slider{
+		visibility: hidden;
+	}
+}
+.most-selling{
+	float:left;
+	width:100%;
+	margin-top:30px;
+	font: normal 20px Nunito,sans-serif;
+	margin-bottom:300px;
+
+	h1{
+	    margin-bottom: 15px;
+	}
+	img{
+		padding: 0 5px 7px;
+	}
+}
+.slick-initialized{
+	visibility: visible !important;	
+}

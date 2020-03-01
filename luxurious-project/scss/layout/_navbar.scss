@@ -7,32 +7,18 @@ nav{
     border-bottom:1px solid #eaeaea;
 
 	ul{
-		position:relative;
-		float:left;
+		display: flex;
+    	justify-content: space-around;
 
 		li{
-			display:inline-block;
-			padding:12px 9px;
+			padding:12px 0;
 			float:left;		
 			@include fonts(normal, 10.5px, $nunito);
 			position:relative;
 
 			@media screen and (min-width:1112px){
-				padding:12px 12.5px;
-				@include fonts(normal, 12px, $nunito);
+				@include fonts(normal, 13px, $nunito);
 			}
-
-			&:nth-child(1){
-				padding-right:35px;
-				position:static;
-			}
-			&:nth-child(1):hover{
-				background-color:$bg-color6;
-			}
-			&:nth-child(1):after{
-				position:static;
-			}
-
 			&:after{
 				content:'';
 				position:absolute;

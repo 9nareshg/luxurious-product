@@ -21,118 +21,6 @@
 						<div class="f-heading">Filters<a href="#">clear all</a></div>
 						<div class="f-category"></div>
 						<div class="f-select">
-							<div class="releated">Releated Categories<span class="click">-</span></div>
-							<div class="releated-open">
-								<ul>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door handle</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Safty door handle</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Safty door gril</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Safty door lock</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Men door lock</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door stoper</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door closer</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-									<li>
-										<label>
-											<input type="checkbox">
-											<span class="checkbox"></span>
-											<span>Door chain</span>
-										</label>
-									</li>
-								</ul>
-							</div>
-							<!-- releated categories filter -->
-
 							<div class="sort-by">Sort by<span class="click">-</span></div>
 							<div class="sort-by-open">
 								<ul>
@@ -167,6 +55,41 @@
 								</ul>
 							</div>
 							<!-- sort by filter -->
+
+							<div class="releated">Releated Categories<span class="click">-</span></div>
+							<div class="releated-open">
+								<ul>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Door handle</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Safty door handle</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Safty door gril</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="checkbox">
+											<span class="checkbox"></span>
+											<span>Safty door lock</span>
+										</label>
+									</li>
+								</ul>
+							</div>
+							<!-- releated categories filter -->
 
 							<div class="brand">Brand<span class="click">-</span></div>
 							<div class="brand-open">

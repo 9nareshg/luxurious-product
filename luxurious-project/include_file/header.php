@@ -7,10 +7,10 @@
 		<div class="search">
 			<div class="s-heading"></div>
 			<div class="s-input">
-				<form autocomplete="off">
+				<form method="get" action="result.php" enctype="multipart/form-data" autocomplete="off">
 					<input type="text" name="search" placeholder="Search for your favourites products">
 					<button type="submit">
-						<img src="img/svg/search-icon.svg">
+						<img src="img/search-icon.svg">
 					</button>
 				</form>	
 			</div>
@@ -27,16 +27,16 @@
 <nav>
 	<div class="page-base">
 		<ul>
-			<li>All<span></span>
-				<div></div>
-			</li>
-			<li>Locks & Fitting Accesories</li>
-			<li>Door Hardware</li>
-			<li>Bathroom Faucets & Taps</li>
-			<li>Furniture Handles & Knob</li>
-			<li>Lightning, Ladders & All</li>
-			<li>Tools & Accessories</li>
-			<li>Floor accessories</li>
+			<li>Mobiles & Tablets</li>
+			<li>Cameras</li>
+			<li>Laptop & Printer</li>
+			<li>Entertainment</li>
+			<li>Kitchen Appliances</li>
+			<li>Personal Care</li>
+			<li>Accessories</li>
+			<li>Air Conditioners</li>
+			<li>Refrigerators</li>
+			<li>Washing Machines</li>
 		</ul>
 	</div>
 </nav>
