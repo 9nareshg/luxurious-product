@@ -27,16 +27,13 @@
 <nav>
 	<div class="page-base">
 		<ul>
-			<li>Mobiles & Tablets</li>
-			<li>Cameras</li>
-			<li>Laptop & Printer</li>
-			<li>Entertainment</li>
-			<li>Kitchen Appliances</li>
-			<li>Personal Care</li>
-			<li>Accessories</li>
-			<li>Air Conditioners</li>
-			<li>Refrigerators</li>
-			<li>Washing Machines</li>
+			<li>Locks & Fitting Accesories</li>
+			<li>Bathroom Faucets & Taps</li>
+			<li>Lightning, Ladders & All</li>
+			<li>Floor accessories</li>
+			<li>Furniture Handles & Knob</li>
+			<li>Tools & Accessories</li>
+			<li>All Hardware</li>
 		</ul>
 	</div>
 </nav>

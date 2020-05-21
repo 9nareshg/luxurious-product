@@ -1,3 +1,6 @@
+<?php
+	include('include_file/db.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -149,388 +152,178 @@
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-title">Samsung Galaxy A51 (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</div>
+							<div class="p-by">By samsung</div>
+							<div class="p-price">Rs. 25,000</div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-						
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
+							<div class="p-by"></div>
+							<div class="p-price"></div>
 						</div>
-
 						<div class="product">
 							<div class="p-img">
 								<img src="https://dummyimage.com/400x600/f5f4f2/000">
 							</div>
-							<div class="p-price"></div>
 							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
+							<div class="p-by"></div>
 							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
-
-						<div class="product">
-							<div class="p-img">
-								<img src="https://dummyimage.com/400x600/f5f4f2/000">
-							</div>
-							<div class="p-price"></div>
-							<div class="p-title"></div>
-							<div class="p-desc"></div>
-						</div>
+						</div>			
 					</div>
 				</div>
 			</div>

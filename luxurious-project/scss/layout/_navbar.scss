@@ -15,6 +15,7 @@ nav{
 			float:left;		
 			@include fonts(normal, 10.5px, $nunito);
 			position:relative;
+			cursor:pointer;
 
 			@media screen and (min-width:1112px){
 				@include fonts(normal, 13px, $nunito);

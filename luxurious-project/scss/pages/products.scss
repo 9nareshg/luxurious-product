@@ -94,7 +94,7 @@
 
 	.showing-result{
 		float:left;
-		padding: 21px 0 11px 10px;
+		padding: 21px 0 11px 20px;
 		width:100%;
 		@include fonts;
 	}
@@ -108,8 +108,8 @@
 		float:left;
 
 		.product{
-			width:calc((100% / 4) - 10px);
-			margin:10px 0 0 9px;
+			width:calc((100% / 4) - 20px);
+			margin:10px 0 15px 20px;
 
 			.p-img{
 				float:left;
@@ -117,6 +117,23 @@
 				img{
 					width:75%;
 				}
+			}
+			.p-title{
+				float: left;
+				color: #186dc5;
+				font: normal 13px Nunito,sans-serif;
+			}
+			.p-by{
+				float: left;
+			    color: #949494;
+			    font: normal 13px Nunito,sans-serif;
+			    width: 100%;
+			}
+			.p-price{
+				float: left;
+			    width: 100%;
+			    color: #ff0000;
+			    font: normal 14px arial,sans-serif;
 			}
 		}
 	}
