@@ -1,3 +1,6 @@
+<?php
+	include('include_file/functions/functions.php');
+?>
 <!-- head -->
 <header>
 	<div class="page-base">
@@ -27,13 +30,9 @@
 <nav>
 	<div class="page-base">
 		<ul>
-			<li>Locks & Fitting Accesories</li>
-			<li>Bathroom Faucets & Taps</li>
-			<li>Lightning, Ladders & All</li>
-			<li>Floor accessories</li>
-			<li>Furniture Handles & Knob</li>
-			<li>Tools & Accessories</li>
-			<li>All Hardware</li>
+			<?php
+				get_main_cat();
+			?>
 		</ul>
 	</div>
 </nav>

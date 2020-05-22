@@ -1,6 +1,3 @@
-<?php
-	include('include_file/db.php');
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,7 +91,7 @@
 							</div>
 							<!-- releated categories filter -->
 
-							<div class="brand">Brand<span class="click">-</span></div>
+							<div class="brand">Brands<span class="click">-</span></div>
 							<div class="brand-open">
 								<ul>
 									<li>
